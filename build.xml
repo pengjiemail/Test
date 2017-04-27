@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projeck name="downloadDoc">
+	<taskdef name="xmltask" classname="com.oopsconsultancy.xmltask.ant.XmlTask"/>
+	<property file="build.properties" />
+	<target>
+		
+	</target>
+</projeck>

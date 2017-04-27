@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<employees>
+  <employee id="1">
+    <name>张三</name>
+    <sex>男</sex>
+    <age>23</age>
+  </employee>
+  <employee id="2">
+    <name>李四</name>
+    <sex>女</sex>
+    <age>24</age>
+  </employee>
+</employees>

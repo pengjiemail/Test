@@ -1,0 +1,31 @@
+2016-05-19 16:12:22-1-INFO-sss
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-05-19T16:12:43</date>
+  <millis>1463645563235</millis>
+  <sequence>0</sequence>
+  <logger>s</logger>
+  <level>INFO</level>
+  <class>te.Test</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>sss</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-05-19T16:13:17</date>
+  <millis>1463645597728</millis>
+  <sequence>0</sequence>
+  <logger>s</logger>
+  <level>INFO</level>
+  <class>te.Test</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>sss</message>
+</record>
+</log>
