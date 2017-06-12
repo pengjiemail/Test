@@ -13,6 +13,8 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.regex.Pattern;
 
+import te.url.HttpUtils;
+
 
 /**
  * 新房的压力测试工具：读取Access日志中的Url，启动N个线程模拟客户端同时向接口提交

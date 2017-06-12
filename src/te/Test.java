@@ -77,6 +77,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import te.BuilderTest.Builder;
+import te.url.URLUtil;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
