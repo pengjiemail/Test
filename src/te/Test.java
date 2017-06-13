@@ -68,9 +68,6 @@ import javax.xml.transform.TransformerFactoryConfigurationError;
 import net.sf.json.xml.XMLSerializer;
 
 import org.apache.commons.collections.ListUtils;
-import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.NameValuePair;
-import org.apache.commons.httpclient.methods.PostMethod;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringEscapeUtils;
@@ -115,16 +112,9 @@ public class Test {
    * @throws TransformerException
    */
   public static void main(String[] args) throws Exception {
-    String url = "http://fang.com:8090/e.agent/test/testPostMethod.do";
-    PostMethod pm = new PostMethod(url);
-    NameValuePair[] nv = new NameValuePair[2];
-    nv[0] = new NameValuePair("data", "1");
-    nv[1] = new NameValuePair("ss","2");
-    pm.setRequestBody(nv);
-    pm.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8");
-    HttpClient hc = new HttpClient();
-    int state = hc.executeMethod(pm);
-    System.out.println(state);
+    File file = new File("D:\\1.zip");
+    ZipFile zipFile = new ZipFile(file);
+    System.out.println(zipFile.size());
   }
   
   public static void getFinancailData() throws IOException{
