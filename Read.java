@@ -36,7 +36,7 @@ import org.apache.commons.io.IOUtils;
 public class Read {
   
   public static void main(String[] args) throws Exception {
-    // double d=0.1;qqq
+    // double d=0.1;sss
     // NumberFormat nf=new DecimalFormat("0.00");
     // System.out.println(nf.format(d));
     read();
