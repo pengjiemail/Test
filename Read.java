@@ -36,11 +36,7 @@ import org.apache.commons.io.IOUtils;
 public class Read {
   
   public static void main(String[] args) throws Exception {
-<<<<<<< HEAD
-    // double d=0.1;ssss
-=======
-    // double d=0.1;qqq
->>>>>>> branch 'master' of https://github.com/pengjiemail/test.git
+    // double d=0.1;
     // NumberFormat nf=new DecimalFormat("0.00");
     // System.out.println(nf.format(d));
     read();
